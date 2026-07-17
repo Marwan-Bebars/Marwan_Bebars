@@ -93,7 +93,7 @@ export const projects = [
   {
     id: 'Library Management System',
     title: 'Library Management System',
-    category: 'Web',
+    category: 'web',
     description: 'A dynamic web application built with Django designed to streamline book management, user interactions, and library inventory.',
     longDescription: 'Online Book Library & Management System. A dynamic web application built with Django (Python) and HTML/CSS/JavaScript, designed to streamline book management and user interactions. The platform features a comprehensive role-based architecture, separating functionalities for regular users and administrators. Key features include secure user authentication and profile management, an advanced search system for books and authors, a fully featured Admin dashboard for managing categories and inventory, and a request management system for borrowing books.',
     tech: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'SQLite'],
@@ -110,7 +110,7 @@ export const projects = [
   {
     id: 'mask-detection',
     title: 'Mask Detection',
-    category: 'Computer Vision',
+    category: 'computer-vision',
     description: 'A real-time face mask detection system using YOLOv5 to identify mask compliance with color-coded alerts.',
     longDescription: 'A real-time Face Mask Detection desktop application that uses deep learning (YOLOv5) to detect whether people are wearing face masks correctly, incorrectly, or not at all. The system supports both static image analysis and live camera feed, with an intuitive GUI displaying color-coded bounding boxes and confidence scores (🟢 with_mask, 🔴 without_mask, 🟠 mask_weared_incorrect). The project demonstrates proficiency in deep learning deployment, real-time video processing, model optimization for CPU, and multi-threaded GUI development.',
     tech: ['Computer Vision', 'PyTorch', 'OpenCV', 'YOLOv5', 'CustomTkinter', 'Python'],
@@ -126,7 +126,7 @@ export const projects = [
   {
     id: 'exoplanet-detector',
     title: 'Exoplanet Detector',
-    category: 'AI',
+    category: 'ai',
     description: 'An interactive AI-powered web application that analyzes stellar light curve data to detect and classify potential exoplanets.',
     longDescription: 'Developed for the NASA Space Apps Cairo 2025 hackathon, this interactive web application uses Artificial Intelligence to analyze stellar light curve data and detect potential exoplanets. The project simplifies the complex process of identifying exoplanet transits by processing time-series data from space missions like Kepler, K2, and TESS. It features a user-friendly interface for uploading datasets, visualizes light curves using interactive charts, and provides AI-driven classification (Confirmed Planet, Candidate, False Positive) along with confidence probability.',
     tech: ['Python', 'PyTorch', 'scikit-learn', 'Plotly.js', 'Bootstrap'],
@@ -143,5 +143,24 @@ export const projects = [
     github: 'https://github.com/Marwan-Bebars/Exoplanet-Detector-nasa',
     demo: '#',
   },
+    {
+    id: 'job-market-analytics-dashboard',
+    title: 'Job Market Analytics Dashboard',
+    category: 'data-analysis',
+    description: 'An end-to-end data analytics pipeline and interactive dashboard analyzing LinkedIn job postings to extract hiring trends and in-demand skills.',
+    longDescription: 'This project presents a comprehensive data analysis of job postings collected from LinkedIn (2023–2024), aiming to extract actionable insights about job market trends, hiring patterns, and in-demand skills. The project involved building an end-to-end pipeline, performing advanced data cleaning, preprocessing, and feature engineering using Python and SQL Server. It features a dynamic Power BI dashboard with interactive KPIs and filters, helping job seekers and companies make data-driven decisions regarding remote work, salary trends, and skill requirements.',
+    tech: ['Python', 'SQL Server', 'Power BI', 'Pandas', 'NumPy', 'Jupyter Notebook'],
+    gallery: [
+      'assets/projects/job_market_analytics_dashboard/1.png',
+      'assets/projects/job_market_analytics_dashboard/2.png',
+      'assets/projects/job_market_analytics_dashboard/3.png',
+      'assets/projects/job_market_analytics_dashboard/4.png',
+      'assets/projects/job_market_analytics_dashboard/5.png',
+      'assets/projects/job_market_analytics_dashboard/6.png',
+    ]
+    ,
+    github: 'https://github.com/Marwan-Bebars/LinkedIn-Job-Postings-Analytics-Project-2023-2024-',
+    demo: '#',
+  }
 
 ];
