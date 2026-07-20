@@ -161,6 +161,22 @@ export const projects = [
     ,
     github: 'https://github.com/Marwan-Bebars/LinkedIn-Job-Postings-Analytics-Project-2023-2024-',
     demo: '#',
-  }
+  },
+  {
+  id: 'ai-virtual-painter',
+  title: 'AI Virtual Painter',
+  category: 'computer-vision',
+  description:
+    'A real-time, gesture-controlled drawing application built with OpenCV and MediaPipe. Users draw on a virtual canvas using only hand movements captured via webcam, with dual-mode interaction for drawing and tool/color selection.',
+  longDescription:
+    'An interactive computer vision project that replaces traditional input devices with hand gestures. Using MediaPipe\'s 21-point hand landmark model, the system tracks finger positions in real time and classifies which fingers are raised to determine user intent. A single raised index finger triggers Drawing Mode, while raising both the index and middle fingers switches to Selection Mode, allowing the user to pick colors, adjust brush or eraser size via a hand-controlled on-screen slider, or clear the canvas entirely — all without touching a mouse or keyboard. Drawn strokes are rendered onto a persistent canvas layer and composited with the live camera feed each frame using OpenCV bitwise masking, ensuring smooth, continuous drawing. The project follows a modular architecture, separating hand detection and finger-state logic into standalone, reusable classes for use in future gesture-based applications.',
+  tech: ['Python', 'OpenCV', 'MediaPipe', 'NumPy', 'Computer Vision'],
+  gallery: [
+    'assets/projects/ai_virtual_painter/1.png',
+    'assets/projects/ai_virtual_painter/2.png',
+  ],
+  github: 'https://github.com/Marwan-Bebars/AI-Virtual-Pinter',
+  demo: '#',
+},
 
 ];
